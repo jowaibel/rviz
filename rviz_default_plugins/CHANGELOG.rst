@@ -2,6 +2,26 @@
 Changelog for package rviz_default_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+11.2.29 (2026-09-02)
+--------------------
+* Fix memory leaks related to OdometryDisplay (`#1833 <https://github.com/ros2/rviz/issues/1833>`_) (`#1841 <https://github.com/ros2/rviz/issues/1841>`_)
+* Contributors: mergify[bot]
+
+11.2.28 (2026-07-14)
+--------------------
+* Use URDF visual material when it exists (`#1782 <https://github.com/ros2/rviz/issues/1782>`_) (`#1808 <https://github.com/ros2/rviz/issues/1808>`_)
+* Contributors: mergify[bot]
+
+11.2.27 (2026-06-12)
+--------------------
+* Fix disabled displays (addresses `#1773 <https://github.com/ros2/rviz/issues/1773>`_) (`#1774 <https://github.com/ros2/rviz/issues/1774>`_) (`#1779 <https://github.com/ros2/rviz/issues/1779>`_)
+* ogreQuaternionAngularDistance does not properly handle invalid quaternion input (backport `#1714 <https://github.com/ros2/rviz/issues/1714>`_) (`#1759 <https://github.com/ros2/rviz/issues/1759>`_)
+* Make sure to disconnect subscription callback when unsubscribing (backport `#1742 <https://github.com/ros2/rviz/issues/1742>`_) (`#1746 <https://github.com/ros2/rviz/issues/1746>`_)
+* Contributors: mergify[bot]
+
+11.2.26 (2026-02-24)
+--------------------
+
 11.2.25 (2025-12-17)
 --------------------
 * Add CameraInfo topic property to DepthCloudDisplay (`#1643 <https://github.com/ros2/rviz/issues/1643>`_) (`#1646 <https://github.com/ros2/rviz/issues/1646>`_)
